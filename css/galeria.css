@@ -1,0 +1,67 @@
+body{
+    margin-left: 250px;
+    margin-right: 250px;
+    font-family: Verdana;
+    font-size: 14px;
+ 
+ }
+.c-galeria{
+    width: 100%;
+}
+
+ .c-galeria-titulos{
+    width: 90%;
+    padding: 5px;
+}
+.c-animales, .c-varios{
+    padding-top: 30px;
+    width: auto;
+}
+ .c-animales p , .c-varios p {
+    background: #9c9898;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+ .c-animales-fotos,  .c-varios-fotos {
+    margin: 0;
+    display: inline-flex;
+} 
+ .c-animales-fotos img  {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.fotos_galeria{
+    display: flex;
+    background: black;
+    height: 125px;
+    width: 150px;
+    margin:1px;;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+
+
+.titular{
+    font-family: 'Orbitron', sans-serif;
+ }
+@media only screen and (max-width:1200px){
+    body{
+        margin: 0;
+    }
+   
+ 
+ 
+ }

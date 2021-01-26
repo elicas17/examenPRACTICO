@@ -1,0 +1,89 @@
+body{
+   margin-left: 250px;
+   margin-right: 250px;
+   font-family: Verdana;
+   font-size: 14px;
+
+}
+
+/* contenido */
+.contenido .tema{
+   width: 100%;
+   background: #adacac;
+   border:0;
+   border-top:2px;
+   border-bottom: 2px;
+   border-color: red;
+   
+   border-style:solid;
+   
+}
+.contenido .tema h3{
+   color: red;
+}
+.contenido .tema .tema-titulos{
+   width: 90%;
+   padding-left: 10px;
+}
+.contenido .c-imagen-texto {
+  width: 100%;
+  display: flex;
+}
+.contenido .c-imagen-texto .tema-imagen, .contenido .c-imagen-texto .tema-texto  {
+   display: inline-block;
+}
+.contenido .c-imagen-texto .tema-imagen {
+   display: flex;
+   align-items: center;
+   width:20%;
+}
+.contenido .c-imagen-texto .tema-imagen img {
+   width: 90%;
+   margin: 8px;
+   
+}
+.contenido .c-imagen-texto .tema-texto {
+   width: 70%;
+   padding: 10px;
+}
+
+
+/* principal */
+
+.c-principal{
+   width: 100%;
+   display: flex;
+}
+.c-principal .bloque3{
+   display: inline-block;
+   width: 50%;
+   padding: 30px;
+}
+.c-principal .bloque4{
+   display: inline-block;
+   width: 50%;
+   padding: 30px;
+}
+
+.c-principal img{
+
+   float: left;
+   margin-right: 10px;
+}
+
+
+/* body */
+.titular{
+   font-family: 'Orbitron', sans-serif;
+}
+
+
+@media only screen and (max-width:1200px){
+   body{
+       margin-left: 0;
+      margin-right: 0;
+   }
+  
+
+
+}

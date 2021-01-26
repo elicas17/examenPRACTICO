@@ -1,0 +1,22 @@
+/* footer */
+
+footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    height: 100px;
+    margin-bottom: 0;
+ }
+ footer .c-footer{
+    margin: auto;
+ }
+ footer .texto1{
+    width:100%;
+ }
+ footer .texto2{
+    width:100%;
+ }
+ 

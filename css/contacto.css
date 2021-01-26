@@ -1,0 +1,74 @@
+body{
+    margin-left: 250px;
+    margin-right: 250px;
+    font-family: Verdana;
+    font-size: 14px;
+ 
+ }
+ textarea {
+    resize: none;
+    padding-bottom: 20px;
+}
+
+.formulario{
+    background: #747272;
+    width: 85%;
+    float: right;
+    margin-right:20px;
+    border: solid 2px;
+    margin-bottom: 20px;
+}
+.formulario form{
+    position: relative;
+}
+.formulario img{
+    position: absolute;
+     right: 5px;
+    margin-top: 40px;
+    margin-right: 30px;
+    transform: rotate(30deg);
+}
+.formulario button{
+    padding: 5px;
+    width: 70px;
+    margin-left: 20px;
+    border: 2px;
+    margin-bottom: 20px;
+}
+.casillas{
+    display: flex;
+    width: 90%;
+    padding-top: 3vw;
+    padding-left:2vw; 
+}
+.genero{
+     display: flex;
+}
+.genero label{
+   display: inline-block;
+}
+.porcentaje1{
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+ 
+.titular{
+    font-family: 'Orbitron', sans-serif;
+ }
+
+@media only screen and (max-width:1200px){
+    body{
+        margin: 0;
+    }
+   
+ 
+ 
+ }
