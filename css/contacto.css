@@ -16,7 +16,7 @@ body{
     float: right;
     margin-right:20px;
     border: solid 2px;
-    margin-bottom: 20px;
+    margin-bottom: 65px;
 }
 .formulario form{
     position: relative;
@@ -41,12 +41,6 @@ body{
     padding-top: 3vw;
     padding-left:2vw; 
 }
-.genero{
-     display: flex;
-}
-.genero label{
-   display: inline-block;
-}
 .porcentaje1{
     width: 20%;
 }
@@ -57,7 +51,9 @@ body{
 
 
 
-
+footer{
+    
+}
 
  
 .titular{
