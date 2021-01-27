@@ -1,8 +1,10 @@
 body{
-    margin-left: 250px;
-    margin-right: 250px;
     font-family: Verdana;
     font-size: 14px;
+    width: 100%;
+    max-width: 900px;
+    
+   margin: auto;
  
  }
 .c-galeria{
@@ -21,14 +23,12 @@ body{
 .c-animales{
     width: 80%;
     margin-right: 0;
+    padding-top: 30px;
 }
 .c-varios{
-    width: 100%;
+    width: 90%;
     margin-right: 0;
-}
-.c-animales, .c-varios{
     padding-top: 30px;
-    width: auto;
 }
  .c-animales p , .c-varios p {
     background: #9c9898;
@@ -50,8 +50,6 @@ body{
     display: flex;
     height: 100%;
     width: 100%;
-    margin-top: auto;
-    margin-bottom: auto;
 
 }
 .c-varios-fotos img  {
@@ -70,11 +68,25 @@ body{
 .titular{
     font-family: 'Orbitron', sans-serif;
  }
-@media only screen and (max-width:1200px){
-    body{
-        margin: 0;
-    }
-   
+
  
- 
- }
+@media only screen and (max-width:700px){
+        .c-animales-fotos, .c-varios-fotos{
+            width: 95%;
+            margin: auto;
+            /* convierto los contenedores que contienen las fotos en tablas de 2 columnsas */
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap:20px;
+        }
+        .c-animales,.c-varios{
+            width: 100%;
+        }
+        .fotos_galeria{
+            background: black;
+            height: 100%;
+            width:auto;
+
+        }
+    
+}

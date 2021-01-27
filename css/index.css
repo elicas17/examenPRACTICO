@@ -1,9 +1,9 @@
 body{
-   margin-left: 250px;
-   margin-right: 250px;
    font-family: Verdana;
    font-size: 14px;
-   padding-bottom: 0;
+   max-width: 900px;
+   width: 100%;
+   margin: auto;
 
 }
 /* contenido */
@@ -74,18 +74,8 @@ body{
 }
 
 
-@media only screen and (max-width:1200px){
-   body{
-       margin-left: 0;
-         margin-right: 0;
-   }
-}
-
-
-@media only screen and (max-width:500px){
-   body{
-      font-size:10px;
-   }
+@media only screen and (max-width:700px){
+  
    .bloque1{
       width: 60%;
    }
