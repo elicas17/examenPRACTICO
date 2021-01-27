@@ -5,6 +5,7 @@ body{
    width: 100%;
    margin: auto;
 }
+
 .titurojo{
    color: red;
 }
@@ -16,10 +17,7 @@ body{
    border-top:2px;
    border-bottom: 2px;
    border-color: red;
-   
-   border-style:solid;
-   
-   
+   border-style:solid; 
 }
  .tema h3{
    color: red;
@@ -28,12 +26,12 @@ body{
    width: 90%;
    padding-left: 10px;
 }
-.contenido .c-imagen-texto {
+.tema .c-imagen-texto {
   width: 95%;
   display: block;
   margin: auto;
 }
-.contenido .c-imagen-texto p {
+.tema .c-imagen-texto p {
    display: block;
    width: 100%;
    padding: 0;
@@ -69,7 +67,6 @@ body{
    margin-bottom:5px ;
 }
 
-
 /* body */
 .titular{
    font-family: 'Orbitron', sans-serif;
@@ -78,20 +75,23 @@ body{
 
 @media only screen and (max-width:700px){
   
-   .bloque1{
-      width: 60%;
-   }
+   /* en vez que dos bloques de informacion, habra solo uno */
    .c-principal{
+      /* ocupo casi todo el ancho  */
       width: 90%;
       display: block;
+      /* centro los margenes par que este centrado el contenendor */
       margin: auto;
    }
+   /* NO MAS COLUMNAS */
    .c-principal .bloque3{
+      /*  ocupe todo el ancho como un bloque */
       display: block;
       width: 100%;
       padding: 0;
    }
    .c-principal .bloque4{
+       /* en vez d k ocupe la mitad del espacio que ocupe todo el ancho */
       display: block;
       width: 100%;
       padding: 0;
