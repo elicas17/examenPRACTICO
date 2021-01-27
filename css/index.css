@@ -105,32 +105,3 @@ body{
       padding: 0;
    }
 }
-
-@media only screen and (max-width:300px){
-   /* header */
-   header{
-      display: block;
-      width: 100%;
-   }
-   .bloque1{
-      width: 100%;
-   }
-   .bloque2{
-      height: 25px;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-   }
-   .bloque ul{
-      width: 100%;
-      margin: auto;
-   }
-   .bloque2 li{
-      display: inline-block;
-      border: 0;
-      width:50px;
-      margin-top: 0;
-   }
-
-
-}
