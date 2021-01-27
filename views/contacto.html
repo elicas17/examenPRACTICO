@@ -12,7 +12,7 @@
 </head>
 
 <body>
-        <header>
+    <header>
                 <div class="bloque1">
                     <div class="c-imagen">
                         <img src="../images/titulo.png" width="680" alt="">
@@ -25,58 +25,60 @@
                         <li><a href="contacto.html">contacto</a> </li>
                     </ul>
                 </div>
-            </header>
-    <div class="c-titulos">
-        <h1 class="titular">Formulario de contacto</h1>
-        <h2 class="titular">Aporta tus sugerencias y ayudanos a mejorar</h2>
-        <p>Nos gustaria seguir creciendo y para ello solicitamos colaboración. Tus sugerencias son valiosas para vosotros.</p>
+        </header>
+    <div class="contenido">
+        <div class="c-titulos">
+                <h1 class="titular">Formulario de contacto</h1>
+                <h2 class="titular">Aporta tus sugerencias y ayudanos a mejorar</h2>
+                <p>Nos gustaria seguir creciendo y para ello solicitamos colaboración. Tus sugerencias son valiosas para vosotros.</p>
 
-    </div>
-    <div class="formulario">
-        <form action="mailto:cebanc@cebanc.com" method="post" enctype="text/plain">
-            <img src="../images/mariposa_amarilla.png" width="90" alt="">
+        </div>
+        <div class="formulario">
+            <form action="mailto:cebanc@cebanc.com" method="post" enctype="text/plain">
+                <img src="../images/mariposa_amarilla.png" width="90" alt="">
+                
+                <div class="casillas">
+                        <label class="porcentaje1"  >  Nombre: </label>
+                        <input class="porcentaje2"  type="text">
+                </div>
+                <div class="casillas">
+                    <label class="porcentaje1"  > Email: </label>
+                        <input  class="porcentaje2" type="email">
+                </div>
+                <div class="casillas genero">
+                        <label>
+                            <input type="radio" name="color" value="azul">Hombre  
+                        </label>
+                        <label>
+                            <input type="radio" name="color" value="negro"> Mujer
+                        </label>
+                </div>
+                <div class="casillas">
+                        <label   class="porcentaje1" > Conozco la web por: </label>
+                        <select  class="porcentaje2" name="OS">
+                                <option value="1">Buscadores</option> 
+                                <option value="2">Amigos</option> 
+                                <option value="3">Publicidad</option>
+                                <option value="4">Otros</option> 
+                        </select>
+                </div>
+                <div class="casillas">
+                        <label  class="porcentaje1 sugerencia" > Sugerencias: </label>
+                        <textarea class="porcentaje2"  name="" id="" cols="60" rows="9">
+                        </textarea>
+                    </div>   
+                
+                    <button><strong> Enviar</strong></button>
+            </form>
            
-            <div class="casillas">
-                <label class="porcentaje1" for=""><strong> Nombre:</strong></label>
-                <input class="porcentaje2"  type="text">
-            </div>
-           <div class="casillas">
-               <label class="porcentaje1"  for=""><strong>Email:</strong> </label>
-                <input  class="porcentaje2" type="email">
-           </div>
-           <div class="casillas genero">
-                <label>
-                    <input type="radio" name="color" value="azul"><strong>Hombre</strong> 
-                </label>
-                <label>
-                    <input type="radio" name="color" value="negro"><strong>Mujer</strong> 
-                </label>
-           </div>
-           <div class="casillas">
-                <label for="" class="porcentaje1" ><strong> Conozco la web por:</strong></label>
-                <select  class="porcentaje2" name="OS">
-                        <option value="1">Buscadores</option> 
-                        <option value="2">Amigos</option> 
-                        <option value="3">Publicidad</option>
-                        <option value="4">Otros</option> 
-                </select>
-           </div>
-           <div class="casillas">
-                <label for="" class="porcentaje1" ><strong>Sugerencias:</strong></label>
-                <textarea class="porcentaje2"  name="" id="" cols="70" rows="9">
-                </textarea>
-            </div>   
-           
-            <button><strong> Enviar</strong></button>
-        </form>
+        </div> 
     </div>
+    
 	<footer>
-			<div class="c-footer">
-				<p class="texto1"></p>Examen de optimización deimagenes, maquetacion web, HTML y CSS</p>
-				 <p class="texto2">Cebanc | 2020</p>
-			</div>
-			
-				
-		</footer>
+		<div class="c-footer">
+			<p class="texto1"></p>Examen de optimización deimagenes, maquetacion web, HTML y CSS</p>
+			<p class="texto2">Cebanc | 2020</p>
+		</div>		
+	</footer>
 </body>
 </html>
