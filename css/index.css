@@ -3,11 +3,11 @@ body{
    margin-right: 250px;
    font-family: Verdana;
    font-size: 14px;
+   padding-bottom: 0;
 
 }
-
 /* contenido */
-.contenido .tema{
+.tema{
    width: 100%;
    background: #adacac;
    border:0;
@@ -17,34 +17,29 @@ body{
    
    border-style:solid;
    
+   
 }
-.contenido .tema h3{
+ .tema h3{
    color: red;
 }
-.contenido .tema .tema-titulos{
+ .tema .tema-titulos{
    width: 90%;
    padding-left: 10px;
 }
 .contenido .c-imagen-texto {
-  width: 100%;
-  display: flex;
+  width: 95%;
+  display: block;
+  margin: auto;
 }
-.contenido .c-imagen-texto .tema-imagen, .contenido .c-imagen-texto .tema-texto  {
-   display: inline-block;
+.contenido .c-imagen-texto p {
+   display: block;
+   width: 100%;
+   padding: 0;
 }
-.contenido .c-imagen-texto .tema-imagen {
-   display: flex;
-   align-items: center;
-   width:20%;
-}
-.contenido .c-imagen-texto .tema-imagen img {
-   width: 90%;
-   margin: 8px;
-   
-}
-.contenido .c-imagen-texto .tema-texto {
-   width: 70%;
-   padding: 10px;
+.tema img{  
+   float: left;
+   margin-right: 10px;
+   margin-bottom:5px ;
 }
 
 
@@ -69,6 +64,7 @@ body{
 
    float: left;
    margin-right: 10px;
+   margin-bottom:5px ;
 }
 
 
@@ -81,9 +77,60 @@ body{
 @media only screen and (max-width:1200px){
    body{
        margin-left: 0;
-      margin-right: 0;
+         margin-right: 0;
    }
-  
+}
+
+
+@media only screen and (max-width:500px){
+   body{
+      font-size:10px;
+   }
+   .bloque1{
+      width: 60%;
+   }
+   .c-principal{
+      width: 90%;
+      display: block;
+      margin: auto;
+   }
+   .c-principal .bloque3{
+      display: block;
+      width: 100%;
+      padding: 0;
+   }
+   .c-principal .bloque4{
+      display: block;
+      width: 100%;
+      padding: 0;
+   }
+}
+
+@media only screen and (max-width:300px){
+   /* header */
+   header{
+      display: block;
+      width: 100%;
+   }
+   .bloque1{
+      width: 100%;
+   }
+   .bloque2{
+      height: 25px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+   .bloque ul{
+      width: 100%;
+      margin: auto;
+   }
+   .bloque2 li{
+      display: inline-block;
+      border: 0;
+      width:50px;
+      margin-top: 0;
+   }
 
 
 }
