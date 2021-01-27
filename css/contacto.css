@@ -16,6 +16,10 @@ body{
 .titular{
     font-family: 'Orbitron', sans-serif;
  }
+
+ .titurojo{
+    color: red;
+ }
 .c-titulos{
     width: 90%;
     margin: auto;
@@ -49,7 +53,7 @@ body{
 .casillas{
     display: block;
     width: 90%;
-    padding: 5vw
+    padding: 15px;
 }
 
 .porcentaje1{
@@ -70,7 +74,7 @@ body{
     padding: 5px;
     width: 70px;
     margin-left: 20px;
-    border: 2px;
+    border:solid 2px red;
     margin-bottom: 20px;
 }
 @media only screen and (max-width:700px){
